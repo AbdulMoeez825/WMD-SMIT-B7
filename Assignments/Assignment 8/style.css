@@ -1,0 +1,213 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+	background-image: url("./heading.jpeg");
+	height: 86.5vh;
+    background-size: cover;
+	margin-top: 0px;
+	
+}
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.navbar{
+	display: flex;
+	list-style: none;
+	padding-top: 8vh;
+	justify-content: center;
+	transition: 0.15s;
+	
+}
+.navbar a:hover{
+	color: rgb(7, 177, 211);
+	cursor: pointer;
+
+}
+.navbar li a{
+	text-decoration: none;
+	color: white;
+	padding-right: 30px;
+	transition: 0.15s;
+}
+.navbtn{
+	
+	margin-left: 400px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid transparent;
+	background-color: rgba(255, 240, 240, 0.5);
+	padding: 9px;
+	border-radius: 16px;
+	margin-top: -5px;
+}
+.head-2{
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	display:flex;
+	right: 0px;
+	justify-content: space-around;
+}
+.head-h1{
+	font-weight: bolder;
+	font-size: 60px;	
+}
+.button button{
+	padding: 8px 10px;
+	background-color: black;
+	color: white;
+	border-radius: 9px;
+}
+.button a{
+	padding-left: 8px;
+	margin-left: 10px;
+	text-decoration: none;
+	color:black;
+}
+.second-section{
+	display: flex;
+}
+.color-change{
+	color: rgb(165, 102, 224);
+}
+.second-main{
+	margin-left: 15%;
+}
+
+.secondcol{
+	margin-left: 25px;
+}
+.second-main>button{
+	background-color: rgb(140, 56, 219);
+	font-size:18px ;
+	color: white;
+	border-radius: 10px;
+}
+.second-main>img{
+	
+	margin-top: 0px;
+}
+.thirdsection{
+	margin-top: 150px;
+	background-color:rgba(10, 37, 64, 1);
+	display: flex;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.container{
+	margin: 120px;
+
+}
+.container h4{
+	color: rgba(0, 212, 255, 1);;
+}
+.container button{
+	background-color:rgba(0, 212, 255, 1);
+	padding-left: 20px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	padding-right: 20px;
+	border-radius: 20px;
+	color: rgba(10, 37, 64, 1);
+}
+.colounmdisplay{
+	display: flex;
+	
+}
+.colounmdisplay a{
+     color:rgba(0, 212, 255, 1);
+	 text-decoration: none;
+}
+.colounmdisplay h4{
+	border-left: 1px solid rgba(0, 212, 255, 1);
+	padding-left: 10px;
+	
+}
+.first-col{
+  margin-left: 10px;
+	
+}
+.forthdisplay{
+	display: flex;
+	justify-content: space-between;
+}
+.forthsection{
+	padding: 110px;
+	
+}
+.lastblack{
+	margin-top: 10px;
+	background-color: rgba(10, 37, 64, 1);
+	color: white;
+	padding-left: 150px;
+	padding-top: 100px;
+	font-size: larger;
+	padding-bottom: 100px;
+
+
+}
+.secondcolorchange{
+	color:rgba(0, 212, 255, 1);
+}
+.mid-display{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 90px;
+}
+.mid-display h4{
+	border-left: 1px solid rgba(0, 212, 255, 1);
+	padding-left: 20px;
+}
+.lastwhite{
+    padding: 100px 100px 100px 150px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.lastwhite button{
+	color: white;
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color:rgba(99, 91, 255, 1) ;
+	
+}
+.lastwhite a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: rgba(99, 91, 255, 1);
+}
+.lastdisplay{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.flot1{
+	float: right;
+}
+.footer-area{
+	background-color: rgba(246, 249, 252, 1);
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.col-1{
+	display: flex;
+	flex-direction: column;
+	
+
+}
+.footer-area ul li{
+	text-decoration: none;
+	list-style: none;
+
+}

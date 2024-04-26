@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+}
+.logo{
+	position: absolute;
+	top:3%;
+	left: 10%;
+	color: black;
+	margin: 8px;
+	margin-top: 0px;
+	font-size:large;
+}
+.list{
+	display: flex;
+	list-style-type: none;
+	position: absolute;
+	top: 3%;
+	right: 10%;
+}
+.list-item{
+    padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	transition: all 0.5s;
+	margin: 8px;
+	cursor: pointer;
+	margin-top: 0px;		
+}
+.list-item:hover{
+	color: white;
+	background-color: skyblue;
+	border-radius: 7px;
+}
